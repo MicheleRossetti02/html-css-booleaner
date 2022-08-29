@@ -45,11 +45,24 @@ color: white;
     background-color: rgba(0, 191, 255, 0.414);
 }
 
-div{
-    width: 400px;
-    height: 400px;
-}
-.monitor{
-    background-image: url(monitor.jpg);
 
+
+.monitor{
+    width: 250px;
+    height: 150px;
+    background-image: url(monitor.jpg);
+    background-size: cover;
+    text-align: left;
+color: white;
+font-size: 20px;
+}
+.graph{
+    margin-top: 5px;
+    width: 250px;
+    height: 150px;
+    background-image: url(graph.jpg);
+    background-size: cover;
+    text-align: left;
+color: white;
+font-size: 20px;
 }
